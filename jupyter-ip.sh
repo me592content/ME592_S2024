@@ -5,6 +5,7 @@ JUPYTER=$(which jupyter)
 if [ -z "$JUPYTER" ]; then
    echo " "
    echo "ERROR: Jupyter was not found. Exiting."
+   echo " "
    exit
 fi
 
