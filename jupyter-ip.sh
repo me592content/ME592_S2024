@@ -5,10 +5,6 @@ JUPYTER=$(which jupyter)
 if [ -z "$JUPYTER" ]; then
    echo " "
    echo "ERROR: Jupyter was not found. Exiting."
-   echo "Please load the Anaconda module: "
-   echo " "
-   echo "module load anaconda"
-   echo " "
    exit
 fi
 
